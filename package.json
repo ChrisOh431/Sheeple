@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "apos-to-lex-form": "^1.0.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "natural": "^5.2.3",
+    "node-fetch": "^3.2.10",
+    "snoowrap": "^1.23.0",
+    "stopword": "^2.0.5"
+  },
+  "name": "sheeple",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisOh431/Sheeple.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisOh431/Sheeple/issues"
+  },
+  "homepage": "https://github.com/ChrisOh431/Sheeple#readme",
+  "description": ""
+}
