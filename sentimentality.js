@@ -13,7 +13,7 @@ console.log(CLIENT_SECRET);
 
 const authFunc = auth({ CLIENT_ID, CLIENT_SECRET })
 
-const port = 3000;
+const port = 8000;
 
 const subList = [
     "technology",
@@ -68,11 +68,6 @@ app.get('/', authFunc, async (req, res) => {
         });
     });
 })
-
-
-
-
-
 
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
